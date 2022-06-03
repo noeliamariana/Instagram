@@ -1,0 +1,35 @@
+.containerum{
+    padding: 15px;
+    gap: 16px;
+    display: flex;
+    background: var(--background); 
+    border-radius: 10px;    
+    border: 1px solid var(--border);
+}
+
+.story-elements{
+    cursor: pointer;
+}
+
+.user-elements div{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(0.6turn,#7638fa,#c746ff,#ff0169,#FB724B,#ff0169,#ffd600,#ffd600);
+        /* --gradient-lavender: #d300c5; */
+    
+}
+.image-user-story{
+    border: 2px solid var(--background);
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+
+.user-elements, span{
+    font-size: 13px;
+    cursor: pointer;
+}

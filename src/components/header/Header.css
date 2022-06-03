@@ -1,0 +1,79 @@
+.header {
+    background: var(--background);
+    border-bottom: 1px solid var(--border);
+
+    /* Fixa a header */
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 60px;
+
+    max-width: 957px;
+    margin: 0 auto;
+
+    width: 90%;
+}
+
+.header .container .logo {
+    width: 110px;
+    cursor: pointer;
+
+}
+
+.input-insta {
+    /* background: var(--background-main); */
+    background:rgb(239, 239, 239);
+    border-radius: 5px;
+    /* padding: 3px 10px; */
+    /* border: 1px solid var(--border); */
+    padding: 8px 20px ;
+    display: flex;
+    align-items: center;
+
+
+/* 
+    .barra_pesquisa {
+        background: var(--main);
+        border-radius: 3px;
+    
+        padding: 8px 20px;
+    
+        display: flex;
+        align-items: center;
+    }
+    
+    .barra_pesquisa input{
+        font-size: 14px;
+        padding: 0 30px;
+    } */
+}
+
+.input-insta input {
+    font-size: 14px;
+    padding: 0 16px;
+    gap: 20px;
+
+}
+
+.icones .img-user {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+
+}
+
+.icones {
+    gap: 16px;
+    display: flex;
+    align-items: flex;
+    cursor: pointer;
+}

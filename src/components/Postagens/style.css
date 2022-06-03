@@ -1,0 +1,139 @@
+.header-post {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.header-post .img-header-post {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.infos-post {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.img-post img {
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.footer-post {
+    padding: 10px 15px;
+}
+
+.engagement-post {
+    display: flex;
+    justify-content: space-between;
+}
+
+.engagement-post .icones-1 {
+    display: flex;
+    gap: 16px;
+}
+
+
+
+.like {
+    margin-top: 6px;
+}
+
+.like span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.legend {
+    margin: 6px 0 3px;
+}
+
+.legend p strong {
+    font-weight: 500;
+}
+
+.time-post time {
+    font-size: 11px;
+    color: var(--secondary);
+}
+
+.comment {
+    border-top: 1px solid var(--border-secondary);
+    margin-top: 8px;
+
+    display: flex;
+}
+
+.fake-comment {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap: 16px;
+}
+
+.fake-comment input {
+    font-size: 16px;
+}
+
+.comment button {
+    color: var(--quartiary);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.post{
+    background: var(--background);
+    border: 1px solid var(--border);
+    border-radius: 10px; 
+    margin-top: 10px;
+}
+
+.infos-post p{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+/*Botão Coração*/
+.icon button:hover {
+    color: rgb(171, 171, 171);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.icon button:after {   
+    transition: all 5s;
+}
+
+.icon button:focus {
+    /* transform: translateX(0); */
+    transform: scale();
+}
+
+.icon button:after {
+    /* transform: scaleX(5) scaleY(-2); */
+    transform: scale(1.4);
+    opacity: 0;
+}
+
+.icon button:hover {
+    @media (any-hover: hover) {
+        transform: scale();
+        &:after {
+            transform: scale(1.4);
+            opacity: 0;
+        }
+    }
+}
+
+.icon button:active {
+    transform: translateY(-1px);
+    transform: scale(1.4);
+
+}
